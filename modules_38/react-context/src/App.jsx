@@ -2,12 +2,14 @@ import "./App.css";
 import ControlledField from "./Component/ControledData/ControlledField";
 import Fromaction from "./Component/FromAction/Fromaction";
 import Simplefrom from "./Component/Simplefrom";
+import Uncontrolled from "./Component/Uncontorled/Uncontrolled";
 
 function App() {
   return (
     <>
       <h1>From Action</h1>
-      <ControlledField></ControlledField>
+      <Uncontrolled></Uncontrolled>
+      {/* <ControlledField></ControlledField> */}
       {/* <Simplefrom></Simplefrom> */}
       {/* <Fromaction></Fromaction> */}
     </>
